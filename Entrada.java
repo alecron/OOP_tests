@@ -1,4 +1,4 @@
-package Examen_18_19;
+package OOP_tests;
 
 public class Entrada{
     Dato data;

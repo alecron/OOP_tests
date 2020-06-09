@@ -1,9 +1,9 @@
-package Examen_18_19;
+package OOP_tests;
 
 public class Dato {
    long data;
 
-   public Dato(long _data){
+   public Dato(final long _data) {
        data = _data;
    }
 

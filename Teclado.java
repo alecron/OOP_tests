@@ -1,7 +1,7 @@
-package Examen_18_19;
+package OOP_tests;
 
 public class Teclado extends Entrada{
-    public Teclado(long value){
+    public Teclado(final long value) {
         data = new Dato(value);
     }
 }

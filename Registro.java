@@ -1,14 +1,14 @@
-package Examen_18_19;
+package OOP_tests;
 
 public class Registro extends Entrada implements Salida{
     
     public Registro(){};
 
-    public Registro(long value){
+    public Registro(final long value) {
         data = new Dato(value);
     };
 
-    public void write(Dato _data){
+    public void write(final Dato _data) {
         data = _data;
     }
 }
